@@ -28,9 +28,11 @@ see `.env.sample`
 - Feature one: Deploy to Prod
 
 - GET : `/` - specific route to hit
+
 - `/signin` : POST - login as user
 - `/signup` : POST - create one user
 - `/users` : GET - Read all usernames
+
 
 #### Tests
 
