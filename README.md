@@ -10,8 +10,8 @@ Create an API that uses Auth Basic to create a user, and allow a user to login o
 
 ### Links and Resources
 
-- [ci/cd]() (GitHub Actions)
-- [server-prod]()
+- [ci/cd](https://github.com/tm-LBenson/basic-auth/actions) (GitHub Actions)
+- [server-prod](https://d49-basic-auth.onrender.com/)
 
 ### Setup
 
@@ -28,8 +28,11 @@ see `.env.sample`
 - Feature one: Deploy to Prod
 
 - GET : `/` - specific route to hit
-- `/signin` : GET - read all items
-- `/signup` : POST - create one item
+
+- `/signin` : POST - login as user
+- `/signup` : POST - create one user
+- `/users` : GET - Read all usernames
+
 
 #### Tests
 
